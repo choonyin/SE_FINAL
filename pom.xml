@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>FinalProject</groupId>
-  <artifactId>test</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <artifactId>FINAL_PROJECT</artifactId>
+  <!--<version>0.0.1-SNAPSHOT</version>-->
   <packaging>war</packaging>
 
-  <name>test</name>
+  <name>FINAL_PROJECT</name>
   <url>http://maven.apache.org</url>
 
   <properties>
