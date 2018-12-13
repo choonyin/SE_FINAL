@@ -26,7 +26,6 @@
 	</dependency> 
   </dependencies>
 	
-  <packaging>war</packaging>	
   <build>
   <sourceDirectory>src</sourceDirectory>
   <plugins>
