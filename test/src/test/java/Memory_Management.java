@@ -53,4 +53,16 @@ public class Memory_Management {
 			return false;
 		}
 	}
+
+        public static int FIFO(List<String> i, int frame){
+             return 0;
+        }
+
+        public static int LRU(List<String> i, int frame){
+             return 0;
+        }
+
+        public static int Optimal(List<String> i, int frame){
+             return 0;
+        }
 }
