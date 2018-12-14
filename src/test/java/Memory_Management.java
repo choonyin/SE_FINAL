@@ -64,5 +64,5 @@ public class Memory_Management {
 
         public static int Optimal(List<String> i, int frame){
              return 0;
-        }
+	}
 }
