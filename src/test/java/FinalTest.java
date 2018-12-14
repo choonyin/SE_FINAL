@@ -8,7 +8,7 @@ import org.junit.Test;
 public class FinalTest {
 	
 	@Test
-	Public void isNumericShouldWork(){
+	public void isNumericShouldWork(){
 		assertTrue(Memory_Management.isNumeric("1"));
 		assertFalse(Memory_Management.isNumeric("a"));
 	}
