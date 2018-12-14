@@ -55,7 +55,31 @@ public class Memory_Management {
 	}
 
         public static int FIFO(List<String> i, int frame){
-             return 0;
+             String[] memory = new String[frame];
+		int pagefault = 0;
+		int n = 0;
+		int index = 0;
+		for(n=0;n<i.size();n++) {
+			int count = 0;
+			boolean same = false;
+			while(count<frame) {
+				same = false;
+				if(i.get(n).equals(memory[count])) {
+					same = true;
+					break;
+				}
+				count++;
+			}
+			if(!same) {
+				memory[index] = i.get(n);
+				index++;
+				if(index>=frame) {
+					index=0;
+				}
+				pagefault++;
+			}
+		}
+		return pagefault;
         }
 
         public static int LRU(List<String> i, int frame){
